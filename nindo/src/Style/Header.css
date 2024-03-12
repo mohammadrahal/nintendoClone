@@ -1,0 +1,16 @@
+.logo{
+    width: 105px;
+    height: 52px;
+    background-color: #e60012;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: white;
+}
+
+
+.icon_effect:hover{
+color:#e60012;
+}

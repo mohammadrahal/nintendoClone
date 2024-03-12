@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --bg_color:#ffffff;
+  --button_color:#e60012;
+}
+
+/* general */
+ul{
+  text-decoration: none;
+}
+/* end general */

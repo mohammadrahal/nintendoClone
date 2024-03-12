@@ -1,0 +1,24 @@
+.bg{
+    background-color: #e60012;
+    padding: 2.25rem 1rem;
+    color: #ffffff
+}
+
+.footer_icon{
+    color: #ffffff;
+    width: 50px;
+}
+
+.item_list{
+    color: var(--button_color);
+}
+
+.item_list:hover{
+    color:#810b0b;
+    text-decoration:2px underline #810b0b;
+}
+
+.footer_bg{
+    background-color: #242424;
+    color: #ffffff;;
+}
