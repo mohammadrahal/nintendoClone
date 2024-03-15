@@ -19,4 +19,11 @@ ul{
 .m_10{
   margin-top: 100px;
 }
+
+.wrapper{
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* end general */

@@ -2,8 +2,8 @@ import '../Style/About.css'
 
 const About = () => {
   return (
-    <div className="about_wrapper">
-      <div className="flex items-center justify-between gap-4">
+    <div className="wrapper">
+      <div className="flex items-center gap-4 flex-col md:flex-row">
         <div className='about_content '>
         <h1 className='about_title'>You're moving to the valley...</h1>
         <p className='about_subtitle'>
