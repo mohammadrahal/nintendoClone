@@ -1,0 +1,30 @@
+.about_wrapper {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_content {
+  display: grid;
+  width: 50%;
+}
+.about_title {
+  font-weight: 700;
+  margin-block: 0px;
+  font-size: 1.125rem;
+}
+.about_subtitle {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+.about_ab {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 0.625rem;
+  margin: 10px;
+}
+.about_image {
+  width: 30rem;
+  border-radius: 20px;
+}

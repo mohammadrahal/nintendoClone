@@ -1,0 +1,27 @@
+.wrapper{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.online_container{
+    background: rgb(248, 248, 248);
+    border-radius:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.on_text{
+    font-size: 1.3125rem;
+    font-weight: 700;
+}
+
+@media (max-width:768px) {
+    .online_container{
+        grid-template-columns: 1fr;
+    }
+}
