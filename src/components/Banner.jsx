@@ -7,12 +7,12 @@ const Banner = () => {
 
   return (
     <div className="backgroun_color w-full">
-      <div className="bg-white grid w-full place-items-center  banner_wrapper">
-        <div className="grid row-start-1 w-full">
+      <div className="bg-white  banner_wrapper">
+        <div className=" w-full">
           {" "}
           <span className="text_hero">Store &gt; Games &gt; Stardew Valley</span>
         </div>
-        <div className="flex gap-5  ">
+        <div className="flex gap-5 flex-col md:flex-row ">
           <div>
             <img src="/images/hero.avif" alt="hero_pic" className="hero_pic" onClick={() => setOpen(true)}/>
             <div>

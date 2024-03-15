@@ -23,7 +23,7 @@ const Header = () => {
           </svg>
         </div>
         <div className="nav flex items-center justify-between w-full">
-          <div className="search_box flex ">
+          <div className="search_box ">
             <button className="flex">
               <span>
                 <svg
@@ -114,7 +114,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      <div className="flex w-full items-center justify-center ">
+      <div className=" nav_hide flex w-full items-center justify-center ">
         <div>
           <select name="" id="">
             {" "}

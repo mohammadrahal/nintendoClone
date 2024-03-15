@@ -12,13 +12,15 @@ const HomePaghe = () => {
       <div className='m_10'>
       <About/>
       </div>
-      <div>
+      <div className='m_10'>
       <Product/>
       </div>
-      <div>
+      <div className='m_10'>
       <Online/>
       </div>
+      <div className='m_10'>
       <Footer/>
+      </div>
     </div>
   )
 }

@@ -1,10 +1,10 @@
-import '../Style/Online.css';
+import "../Style/Online.css";
 
 const Online = () => {
   return (
-    <div className='wrapper'>
-      <div className="online_container">
-        <div className='grid gap-5'>
+    <div className="wrapper ">
+      <div className="online_container ">
+        <div className="grid gap-5">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -24,15 +24,23 @@ const Online = () => {
               ></path>
             </svg>
           </span>
-          <p className='on_text'>
+          <p className="on_text">
             Play online, access classic NES™ and Super NES™ games, and more with
             a Nintendo Switch Online membership.
           </p>
-          <p>This game supports: Online PlaySave Data Cloud</p>
+          <p className="flex gap-4">
+            This game supports:{" "}
+            <span className="pro_line">Online PlaySave </span>
+            <span className="pro_line">Data Cloud</span>
+          </p>
           <button>Learn more</button>
         </div>
         <div>
-            <img src="/images/Pro-Controller-Hands.avif" alt="" className='on-image' />
+          <img
+            src="/images/Pro-Controller-Hands.avif"
+            alt=""
+            className="on-image"
+          />
         </div>
       </div>
     </div>
