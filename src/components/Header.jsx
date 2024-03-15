@@ -3,7 +3,7 @@ import "../Style/Header.css";
 // import 'boxicons'
 const Header = () => {
   return (
-    <div>
+    <div className="header_wrapper">
       <div className="flex">
         <div className="logo">
           <svg

@@ -9,7 +9,14 @@
 }
 
 /* general */
+body{
+  font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #484848;
+}
 ul{
   text-decoration: none;
+}
+.m_10{
+  margin-top: 100px;
 }
 /* end general */
